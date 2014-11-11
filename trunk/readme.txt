@@ -32,7 +32,7 @@ Parc du Mont Boron, 06300 Nice, France;
 15 Chemin de Passable, 06230 Saint-Jean-Cap-Ferrat, France
 [/multimap]`
 
-For more information visit plugin page of <a href=" http://fulldesign.ch/multi-map-plugin/">Multimaps</a>
+For more information visit plugin page of <a href=" http://fulldesign.ch/multi-map-plugin/">Multimap</a>
 
 
 == Installation ==
@@ -44,6 +44,8 @@ For more information visit plugin page of <a href=" http://fulldesign.ch/multi-m
 
 
 == Frequently Asked Questions ==
+
+
 Example code:
 [multimap data-height="250px" data-zoom="12"]
 Port de Villefranche Darse - CCI Nice Côte d'Azur, Chemin du Lazaret, 06230 Villefranche-sur-Mer, France;
@@ -65,4 +67,4 @@ Parc du Mont Boron, 06300 Nice, France;
 
 == Upgrade Notice ==
 = 1.0.1 =
-Initial release.
+Adaptation to Wordpress coding standards.
