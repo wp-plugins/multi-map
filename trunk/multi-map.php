@@ -9,14 +9,12 @@ Author URI: http://fulldesign.ch/
 License: GPL2
 */
 
-
 function gmm_inject_data() {
     echo '<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>';
     echo '<script src="'.plugin_dir_url(__FILE__) . 'multi-map.js"></script>';
     echo '<link rel="stylesheet" id="multi-map-css" href="'.plugin_dir_url(__FILE__) .'/css/multi-map.css" type="text/css" media="all" />';
 }
 add_action( 'wp_head', 'gmm_inject_data' );
-
 
 function gmm_shortcode( $atts, $content = null ) {
 	$args = shortcode_atts( array(
@@ -30,5 +28,5 @@ function gmm_shortcode( $atts, $content = null ) {
 	return '<multimap data_width="' . $args['data_width'] . '" data_height="' . $args['data_height'] . '" data_zoom="' . $args['data_zoom'] . '" data_latitude="' . $args['data_latitude'] . '" data_longitude="' . $args['data_longitude'] . '" data_maptype="' . $args['data_maptype'] . '">' . $content . '</multimap>';
 }
 add_shortcode( 'multimap', 'gmm_shortcode' );
- 
+
 ?>
