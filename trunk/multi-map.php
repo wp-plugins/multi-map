@@ -12,8 +12,8 @@ License: GPL2
 
 function gmm_inject_data() {
     echo '<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>';
-    echo '<script src="'.plugin_dir_url(__FILE__) . 'multimap.js"></script>';
-    echo '<link rel="stylesheet" id="multimap-css" href="'.plugin_dir_url(__FILE__) .'/css/multimap.css" type="text/css" media="all" />';
+    echo '<script src="'.plugin_dir_url(__FILE__) . 'multi-map.js"></script>';
+    echo '<link rel="stylesheet" id="multi-map-css" href="'.plugin_dir_url(__FILE__) .'/css/multi-map.css" type="text/css" media="all" />';
 }
 add_action( 'wp_head', 'gmm_inject_data' );
 
