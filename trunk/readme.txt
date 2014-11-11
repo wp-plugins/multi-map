@@ -67,4 +67,4 @@ Parc du Mont Boron, 06300 Nice, France;
 
 == Upgrade Notice ==
 = 1.0.1 =
-Adaptation to Wordpress coding standards.
+[multimap] shortcode added.
