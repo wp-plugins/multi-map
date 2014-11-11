@@ -15,7 +15,6 @@ function gmm_inject_data() {
     echo '<script src="'.plugin_dir_url(__FILE__) . 'multimap.js"></script>';
     echo '<link rel="stylesheet" id="multimap-css" href="'.plugin_dir_url(__FILE__) .'/css/multimap.css" type="text/css" media="all" />';
 }
-
 add_action( 'wp_head', 'gmm_inject_data' );
 
 
