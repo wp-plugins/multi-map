@@ -24,7 +24,7 @@ data_longitude: initial longitude value of the map (displayed only if no address
 
 
 Example: 
-`[multimap data-height="250px" data-zoom="12"]
+`[multimap data_height="250px" data_zoom="12"]
 Port de Villefranche Darse - CCI Nice Côte d'Azur, Chemin du Lazaret, 06230 Villefranche-sur-Mer, France;
 Fort du Mont Alban, Chemin du Fort du Mont Alban, 06032 Nice, France;
 Villa Ephrussi de Rothschild, 1 Avenue Ephrussi de Rothschild, 06230 Saint-Jean-Cap-Ferrat, France;
@@ -47,7 +47,7 @@ For more information visit plugin page of <a href=" http://fulldesign.ch/multi-m
 
 
 Example code:
-[multimap data-height="250px" data-zoom="12"]
+[multimap data_height="250px" data_zoom="12"]
 Port de Villefranche Darse - CCI Nice Côte d'Azur, Chemin du Lazaret, 06230 Villefranche-sur-Mer, France;
 Fort du Mont Alban, Chemin du Fort du Mont Alban, 06032 Nice, France;
 Villa Ephrussi de Rothschild, 1 Avenue Ephrussi de Rothschild, 06230 Saint-Jean-Cap-Ferrat, France;
